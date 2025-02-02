@@ -25,6 +25,6 @@ while True:
     elif opcao == 3:
         print(f"Resultado: {num1 * num2}\n\n")
     elif opcao == 4:
-        print(f"Resultado: {num1 * num2}\n\n")
+        print(f"Resultado: {num1 / num2}\n\n")
     else:
         print("Opção incorreta!")
