@@ -32,3 +32,7 @@ print(l)
 
 n = lista5.count("e")
 print(n)
+
+#ordenar uma lista
+
+ordem =
