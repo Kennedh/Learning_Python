@@ -1,5 +1,11 @@
-Esse repositório tem como intuito aprender a utilizar o Github e também ao mesmo tempo compartilhar o meu aprendizado em python
+# Programação em Python - Do Básico ao Avançado (Udemy)
 
-#ATENÇÃO TUDO CONTIDO AQUI FOI FEITO POR UM LEIGO, AGRADEÇO A COMPREENSÃO
+Este repositório contém os códigos e exercícios do curso "Programação em Python: Do Básico ao Avançado" da Udemy. Ao longo do curso, estou aprendendo os conceitos fundamentais e avançados de Python, com exemplos práticos e aplicações em diferentes áreas.
 
-Curso: Programação em Python do básico ao avançado (Udemy)
+## Objetivos do Curso
+
+O objetivo deste repositório é acompanhar o progresso do curso, revisitar conceitos e melhorar minha compreensão sobre Python.
+
+## Versão
+
+No curso estou utilizando a versão 3.13
