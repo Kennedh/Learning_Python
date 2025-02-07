@@ -87,5 +87,18 @@ print(receita)
 del receita["fev"]
 
 print(receita)
-"""
 
+receita = {"jan": 100, "fev": 250, "mar": 400}
+
+print(receita.keys())
+print(receita.values())
+
+for chave, valor in receita.items():
+    print(f"Chave: {chave} Valor: {valor}")
+
+print(sum(receita.values()))
+print(max(receita.values()))
+print(min(receita.values()))
+print(len(receita.values()))
+
+"""
