@@ -6,3 +6,16 @@ def par_ou_impar():
         print("Este número é par")
     else:
         print("Este número é impar")
+
+#Peça ao usuário um número N e calcule a soma de todos os números naturais até N.
+
+def soma_naturais():
+    n = int(input("Digite um número: "))
+    i = 0
+    natural = 0
+    while i < n:
+        i += 1
+        natural = natural + i
+    print(natural)
+
+soma_naturais()
