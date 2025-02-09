@@ -1,6 +1,4 @@
 #Escreva um programa que peça um número ao usuário e informe se ele é par ou ímpar.
-from os.path import split
-
 
 def par_ou_impar():
     numero = int(input("Digite um número: "))
@@ -48,12 +46,29 @@ dia_da_semana = { "Monday":"segunda", "Tuesday":"Terça",
                   "Saturday":"Sabado", "Sunday":"Domingo" }
 
 def dia_semana_sbtr():
-    n = int(input("Numero"))
+    n = int(input("Número de dias: "))
     hoje = datetime.today()
     nd = hoje - timedelta(days=n)
     hoje.strftime("%A")
 
     print(hoje)
-    print(dia_da_semana[hoje.strftime("%A")])
+    print(f"Data atual: {dia_da_semana[hoje.strftime("%A")]}\n")
     print(nd)
-    print(dia_da_semana[nd.strftime("%A")])
+    print(f"Data subtraida: {dia_da_semana[nd.strftime("%A")]}")
+
+# Peça um número N e imprima a sequência de Fibonacci até esse valor.
+
+def fibonacci():
+    n = int(input("Escreva um número: "))
+    fib = [1,1]
+    seq = 0
+    #for i in range(1,n):
+    while seq < n:
+        seq = fib[-1] + fib[-2]
+        if seq <= n:
+            fib.append(seq)
+        else:
+            break
+    print(fib)
+
+fibonacci()
