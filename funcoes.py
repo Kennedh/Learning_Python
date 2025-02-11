@@ -71,4 +71,10 @@ def fibonacci():
             break
     print(fib)
 
-fibonacci()
+# Crie uma função que recebe uma lista de números e a ordena sem usar .sort().
+
+def ordena_lista(lista):
+    return sorted(lista)
+
+lista = [2,6,8,1,2,8,6,9,7,5,21]
+print(f"Lista ordenada: {ordena_lista(lista)}")
